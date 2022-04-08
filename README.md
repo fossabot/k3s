@@ -137,6 +137,8 @@ Manual Download
 ```bash
 sudo k3s server &
 # Kubeconfig is written to /etc/rancher/k3s/k3s.yaml
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpengjiang80%2Fk3s.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpengjiang80%2Fk3s?ref=badge_shield)
+
 sudo k3s kubectl get nodes
 
 # On a different node run the below. NODE_TOKEN comes from
@@ -153,3 +155,7 @@ Security
 --------
 
 Security issues in K3s can be reported by sending an email to [security@k3s.io](mailto:security@k3s.io). Please do not file issues about security issues.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpengjiang80%2Fk3s.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpengjiang80%2Fk3s?ref=badge_large)
